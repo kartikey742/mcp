@@ -21,7 +21,7 @@ async def generate_image(
     prompt: str = "random photo",
     width: int = 800,
     height: int = 600,
-    delay_seconds: float = 600.0,
+    delay_seconds: float = 0,
 ) -> str:
     """
     Generates a random image URL after awaiting a specified delay (default 10 minutes / 600 seconds).
